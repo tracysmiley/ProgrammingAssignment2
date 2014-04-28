@@ -17,7 +17,7 @@ makeCacheMatrix <- function(x = numeric()) {
          getsolve = getsolve)
 }
 
-## Write a short comment describing this function
+## Take makeCacheMatrix variable and solve for it or retrieve cached value.
 
 cachesolve <- function(x, ...) {
 ## Checks if variable exists and retrusn it is it is found
